@@ -1,3 +1,5 @@
+package SortingAlgorithms;
+
 public final class QuickSortGPT<T extends Comparable<T>> implements Sorter<T> {
 	
 	public void sort(final T[] items) {
