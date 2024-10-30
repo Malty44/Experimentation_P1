@@ -10,7 +10,7 @@ import SortingAlgorithms.SelectionSortGPT;
 public class CharArray {
 
     public static void run(){
-       fillArrayChar filler = new fillArrayChar();
+       fillArray filler = new fillArray();
 
 
         Character[] small_char_array = new Character[10];
@@ -20,11 +20,11 @@ public class CharArray {
         Character[] mid_char_array = new Character[5000];
 
 
-        filler.generateRandomCharArray(small_char_array);
-        filler.generateRandomCharArray(medium_char_array);
-        filler.generateRandomCharArray(big_char_array);
-        filler.generateRandomCharArray(huge_char_array);
-        filler.generateRandomCharArray(mid_char_array);
+        filler.fill(small_char_array);
+        filler.fill(medium_char_array);
+        filler.fill(big_char_array);
+        filler.fill(huge_char_array);
+        filler.fill(mid_char_array);
 
         System.out.println("C_Quicksort: ");
         new sortArrayWithAlgorithm(small_char_array, new QuickSortGPT<>());
