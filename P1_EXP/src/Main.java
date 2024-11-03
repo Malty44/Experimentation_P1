@@ -6,21 +6,27 @@ import AuxiliarMethods.*;
 public class Main {
     public static void main(String[] args) {
 
-        IArray.run();
+        sortArrayWithAlgorithm clearer = new sortArrayWithAlgorithm();
+        clearer.clearFile("sorting_times.csv");
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Run number: " + i);
+            IArray.run();
 
-        CharArray.run();
+            CharArray.run();
 
-        ByteArray.run();
+            ByteArray.run();
 
-        FloatArray.run();
+            FloatArray.run();
 
-        DoubleArray.run();
+            DoubleArray.run();
 
-        LongArray.run();
+            LongArray.run();
+
+            StringArray.run();
+
+        }
 
     }
-
-
 
 
 
