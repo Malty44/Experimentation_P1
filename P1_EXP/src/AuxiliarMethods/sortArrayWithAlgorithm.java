@@ -6,8 +6,12 @@ public class sortArrayWithAlgorithm {
 
     public <T extends Comparable<T>> sortArrayWithAlgorithm(T[] array, Sorter<T> sorter) {
         // Call the sort method on the sorter instance
+        T[] arrayCopy = array.clone();
+//        for (T element : arrayCopy) {
+//           System.out.print(element + " ");
+//        }
         long start = System.nanoTime();
-        sorter.sort(array);
+        sorter.sort(arrayCopy);
         long finish = System.nanoTime() - start;
         System.out.println(finish);
 
