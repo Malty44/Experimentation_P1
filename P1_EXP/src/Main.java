@@ -8,7 +8,10 @@ public class Main {
 
         sortArrayWithAlgorithm clearer = new sortArrayWithAlgorithm();
         clearer.clearFile("sorting_times.csv");
-        for (int i = 0; i < 10; i++) {
+
+        int TIMES_TO_REPEAT_RUNS = 10;
+
+        for (int i = 0; i < TIMES_TO_REPEAT_RUNS; i++) {
             System.out.println("Run number: " + i);
             IArray.run();
 
