@@ -38,3 +38,6 @@ The key parts of this algorithm are :
 
 3. The constructor for the sorting class that takes care of both timing the execution and saving the data into a CSV is found at `P1_EXP>src>Auxiliar>Methods`:
 ![Sorting Class + Constructor](P1_EXP/assets_for_readme/SortingClass.png)
+
+4. The function that saves the data into a .CSV file is in the same location mentioned at point 3, but !<strong> MAKE SURE </strong> ! that the path of the .CSV file is where you desire it to be created. If you want to change it, make sure to delete the previous .CSV file!
+![CSV saving method + Clear file](P1_EXP/assets_for_readme/CSVFileManipulation.png)
