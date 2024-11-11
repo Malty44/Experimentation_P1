@@ -7,7 +7,7 @@ All the necessary files and algorithms are structured logically in their respect
 
 The key parts of this algorithm are :
 
-* The sorting algorithms ( BubbleSort `while` / no `while` needed  | Quicksort / SelectionSort ).
+* The sorting algorithms ( BubbleSort `while` / no `while` needed  | Quicksort | SelectionSort ).
 * The sorter interface 
 * The multiple array classes that represent different data types to promote diversity and maleability.
 * The actual method that fills the .CSV file with the data collected from the n runs did.
