@@ -50,3 +50,7 @@ The key parts of this algorithm are :
 
 6. The function that saves the data into a .CSV file is in the same location mentioned at point 3, but !<strong> MAKE SURE </strong> ! that the path of the .CSV file is where you desire it to be created. If you want to change it, make sure to delete the previous .CSV file!
 ![CSV saving method + Clear file](P1_EXP/assets_for_readme/CSVFileManipulation.png)
+
+7. Lastly, within the python file, make sure that the data variable <strong> has the correct path to your .CSV file </strong> otherwise you won't be able to visualize the results of the experiment. Furthermore, the last plot can be either commented or deleted if there is no need to compare between two systems, otherwise fill the `your_path_here` with the correct path found on your machine.
+
+![Comparison between systems](P1_EXP/assets_for_readme/comparisonBTNSystems.png)
