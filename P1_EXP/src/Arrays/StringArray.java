@@ -15,8 +15,7 @@ public class StringArray {
     public static void run(){
         ArrayList<String> wordsList = new ArrayList<>();
 
-        // Define the file path (make sure the file path is correct)
-        String filePath = "P1_EXP/src/Arrays/words.txt"; // Replace with your file name
+        String filePath = "P1_EXP/src/Arrays/words.txt"; // make sure this is the correct path
 
         try {
             File file = new File(filePath);

@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 # Load the data from the CSV file
-data = pd.read_csv("C:\\Users\\patri\\OneDrive\\Desktop\\Experimentation_P1\\sorting_times.csv",header=None, names=["Array Type", "Array Size", "Algorithm", "Time Taken"])
+data = pd.read_csv("your_path_here",header=None, names=["Array Type", "Array Size", "Algorithm", "Time Taken"])
 
 
 
@@ -36,8 +36,10 @@ plt.legend(title="Algorithm")
 plt.show()
 
 
-pc_data = pd.read_csv("C:\\Users\\patri\\OneDrive\\Desktop\\sorting_times_pc_patrick.csv",header=None, names=["Array Type", "Array Size", "Algorithm", "Time Taken"])
-laptop_data = pd.read_csv("C:\\Users\\patri\\OneDrive\\Desktop\\sorting_times_laptop_enio.csv",header=None, names=["Array Type", "Array Size", "Algorithm", "Time Taken"])
+#This code below is used in case of multiple systems to have them compared.
+
+pc_data = pd.read_csv("your_path_here",header=None, names=["Array Type", "Array Size", "Algorithm", "Time Taken"])
+laptop_data = pd.read_csv("your_path_here",header=None, names=["Array Type", "Array Size", "Algorithm", "Time Taken"])
 
 # Add a column to distinguish between the two systems
 pc_data['System'] = 'PC'

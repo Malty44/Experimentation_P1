@@ -13,4 +13,3 @@ The key parts of this algorithm are :
 * The actual method that fills the .CSV file with the data collected from the n runs did.
 
 
-
