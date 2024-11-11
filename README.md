@@ -28,7 +28,7 @@ The key parts of this algorithm are :
 * We are aware of warnings from IDE's saying that some casts are not properly done, but it doesn't affect the performance nor the code, it will be fixed in a future commit.
 * If there are any issues found please feel free to open an issue yourself describing the problem at hand.
 
-## Extra information about the code found within the project
+# Extra information about the code found within the project
 
 1. The project has/must be run from the specified `Main.java` file found within `P1_EXP>src>Main.java`. The file looks like this:
 ![Main file structure](P1_EXP/assets_for_readme/main.png)
@@ -36,8 +36,11 @@ The key parts of this algorithm are :
 2. All the array classes can be found within the folder called `Arrays` at `P1_EXP>src>Arrays`:
 ![Array Folder](P1_EXP/assets_for_readme/ArrayFolder.png)
 
-3. The constructor for the sorting class that takes care of both timing the execution and saving the data into a CSV is found at `P1_EXP>src>Auxiliar>Methods`:
+3. All the array classes follow the same pattern, except the string class which is taking values from the `words.txt` file. The pattern is the following, and can be modified at will : 
+![Array Class Structure](P1_EXP/assets_for_readme/arrayClassStructure.png)
+
+4. The constructor for the sorting class that takes care of both timing the execution and saving the data into a CSV is found at `P1_EXP>src>Auxiliar>Methods`:
 ![Sorting Class + Constructor](P1_EXP/assets_for_readme/SortingClass.png)
 
-4. The function that saves the data into a .CSV file is in the same location mentioned at point 3, but !<strong> MAKE SURE </strong> ! that the path of the .CSV file is where you desire it to be created. If you want to change it, make sure to delete the previous .CSV file!
+5. The function that saves the data into a .CSV file is in the same location mentioned at point 3, but !<strong> MAKE SURE </strong> ! that the path of the .CSV file is where you desire it to be created. If you want to change it, make sure to delete the previous .CSV file!
 ![CSV saving method + Clear file](P1_EXP/assets_for_readme/CSVFileManipulation.png)
