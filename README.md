@@ -22,7 +22,7 @@ The key parts of this algorithm are :
 5. Take the CSV file and add it to the python folder , then run the python code to visualize the data.
 
 ### IMPORTANT:
-* The python code cannot run within intelliJ, thus you will have to open it inside a specialized IDE or VSCode and run it there.
+#### * The python code cannot run within intelliJ, thus you will have to open it inside a specialized IDE or VSCode and run it there.
 
 ## Known issues:
 * We are aware of warnings from IDE's saying that some casts are not properly done, but it doesn't affect the performance nor the code, it will be fixed in a future commit.
