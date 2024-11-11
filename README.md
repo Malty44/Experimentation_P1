@@ -39,8 +39,14 @@ The key parts of this algorithm are :
 3. All the array classes follow the same pattern, except the string class which is taking values from the `words.txt` file. The pattern is the following, and can be modified at will : 
 ![Array Class Structure](P1_EXP/assets_for_readme/arrayClassStructure.png)
 
-4. The constructor for the sorting class that takes care of both timing the execution and saving the data into a CSV is found at `P1_EXP>src>Auxiliar>Methods`:
+4. All the arrays are filled with random values using this function found in `P1_EXP>src>AuxiliarMethods>fillArray.java`. <strong> IMPORTANT! </strong> If there is a need in the future for more data types, it is important to respect the structure of the project:
+* Create a class for the appropriate array data type
+* Extend the fillArray Class to fill the array with the new data type
+* Call the class.run() method within the main file.
+![How the array is filled](P1_EXP/assets_for_readme/filler.png)
+
+5. The constructor for the sorting class that takes care of both timing the execution and saving the data into a CSV is found at `P1_EXP>src>Auxiliar>Methods`:
 ![Sorting Class + Constructor](P1_EXP/assets_for_readme/SortingClass.png)
 
-5. The function that saves the data into a .CSV file is in the same location mentioned at point 3, but !<strong> MAKE SURE </strong> ! that the path of the .CSV file is where you desire it to be created. If you want to change it, make sure to delete the previous .CSV file!
+6. The function that saves the data into a .CSV file is in the same location mentioned at point 3, but !<strong> MAKE SURE </strong> ! that the path of the .CSV file is where you desire it to be created. If you want to change it, make sure to delete the previous .CSV file!
 ![CSV saving method + Clear file](P1_EXP/assets_for_readme/CSVFileManipulation.png)
