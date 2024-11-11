@@ -31,4 +31,4 @@ The key parts of this algorithm are :
 ## Extra information about the code found within the project
 
 1. The project has/must be run from the specified `Main.java` file found within `P1_EXP>src>Main.java`. The file looks like this:
-![Main file structure](P1_EXP\assets_for_readme\main.png)
+![Main file structure](P1_EXP/assets_for_readme/main.png)
