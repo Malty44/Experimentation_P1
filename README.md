@@ -32,4 +32,4 @@ The key parts of this algorithm are :
 
 1. The project has/must be run from the specified `Main.java` file found within `P1_EXP>src>Main.java`. The file looks like this:
 ![Main file structure](P1_EXP/assets_for_readme/main.png)
-<img src = "P1_EXP/assets_for_readme/main.png" width = "350" height = "450">
+<img src = "P1_EXP/assets_for_readme/main.png" width = "550" height = "650">
