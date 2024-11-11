@@ -18,8 +18,12 @@ The key parts of this algorithm are :
 1. Clone this repository in your desired location using `git clone your-path-here`
 2. Open the repository in and IDE, preferably intelliJ since this was created using said IDE
 3. Make sure that the path inside `P1_EXP>pyhton>main.py` matches your desired path.
-4. Run the experiment.
+4. Run the experiment from the `P1_EXP>src>Main.java` file.
 5. Take the CSV file and add it to the python folder , then run the python code to visualize the data.
 
 ### IMPORTANT:
 * The python code cannot run within intelliJ, thus you will have to open it inside a specialized IDE or VSCode and run it there.
+
+## Known issues:
+* We are aware of warnings from IDE's saying that some casts are not properly done, but it doesn't affect the performance nor the code, it will be fixed in a future commit.
+* If there are any issues found please feel free to open an issue yourself describing the problem at hand.
