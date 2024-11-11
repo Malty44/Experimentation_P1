@@ -19,6 +19,6 @@ The key parts of this algorithm are :
 2. Open the repository in and IDE, preferably intelliJ since this was created using said IDE
 3. Make sure that the path inside `P1_EXP>pyhton>main.py` matches your desired path.
 4. Run the experiment.
-5. Take the CSV file and add it to the python folder , then run the python code to visualize the data.
+5. Take the CSV file and add it to the python folder , then run the python code to visualize the data.<br>
 IMPORTANT:
 * The python code cannot run within intelliJ, thus you will have to open it inside a specialized IDE or VSCode and run it there.
