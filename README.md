@@ -27,3 +27,8 @@ The key parts of this algorithm are :
 ## Known issues:
 * We are aware of warnings from IDE's saying that some casts are not properly done, but it doesn't affect the performance nor the code, it will be fixed in a future commit.
 * If there are any issues found please feel free to open an issue yourself describing the problem at hand.
+
+## Extra information about the code found within the project
+
+1. The project has/must be run from the specified `Main.java` file found within `P1_EXP>src>Main.java`. The file looks like this:
+<a href = "P1_EXP/assets_for_readme/main.png">
