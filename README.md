@@ -32,4 +32,6 @@ The key parts of this algorithm are :
 
 1. The project has/must be run from the specified `Main.java` file found within `P1_EXP>src>Main.java`. The file looks like this:
 ![Main file structure](P1_EXP/assets_for_readme/main.png)
-<img src = "P1_EXP/assets_for_readme/main.png" width = "550" height = "650">
+
+2. All the array classes can be found within the folder called `Arrays` at `P1_EXP>src>Arrays`:
+![Array Folder](P1_EXP/assets_for_readme/ArrayFolder.png)
