@@ -35,3 +35,6 @@ The key parts of this algorithm are :
 
 2. All the array classes can be found within the folder called `Arrays` at `P1_EXP>src>Arrays`:
 ![Array Folder](P1_EXP/assets_for_readme/ArrayFolder.png)
+
+3. The constructor for the sorting class that takes care of both timing the execution and saving the data into a CSV is found at `P1_EXP>src>Auxiliar>Methods`:
+![Sorting Class + Constructor](P1_EXP/assets_for_readme/SortingClass.png)
